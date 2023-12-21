@@ -214,7 +214,7 @@ int main() {
 			validInput(b);
 			int numbOfVarr = 0;
 			for (int i = 0; i < 100; i++) {
-				if (arr[i] < b) {
+				if (arr[i] > b) {
 					++numbOfVarr;
 				}
 			}
